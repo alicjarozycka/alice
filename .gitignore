@@ -1,0 +1,4 @@
+# ignore changes in vscode and fxi files
+.vscode
+*.fxi
+**/__pycache__/

@@ -1,0 +1,32 @@
+version: "3.9"
+
+services:
+  alicedb:
+    image: mariadb:10.11
+    container_name: alicedb
+    networks:
+      alice_network:
+        ipv4_address: 172.16.238.10
+    ports:
+      - 3306:3306
+    volumes:
+      - ./schema/init_schema.sql:/docker-entrypoint-initdb.d/init.sql
+    environment:
+      MARIADB_ROOT_PASSWORD: pass
+      MARIADB_ROOT_USER: root
+
+  adminer:
+    image: adminer:latest
+    restart: always
+    networks:
+      alice_network:
+        ipv4_address: 172.16.238.11
+    ports:
+      - 8080:8080
+
+networks:
+  alice_network:
+    ipam:
+      driver: default
+      config:
+        - subnet: 172.16.238.0/24
