@@ -4,7 +4,6 @@
 
 -   [General info](#general-info)
 -   [How to run](#how-to-run)
--   [Steps](#steps)
 
 ## General info
 
@@ -25,8 +24,6 @@ $ pip install -r requirements.txt
 ```
 
 This command will simply install all external libraries in Python that are used in this project. 
-
-## Steps
 
 1. The first step is to create a database. In order to do that, go to [alicedb directory](https://github.com/alicjarozycka/alice/tree/master/alicedb) and follow steps given in the alicedb README.
 2. Then change the directory to [alice-admin](https://github.com/alicjarozycka/alice/tree/master/alice-admin) and again follow steps from alice-admin README.
