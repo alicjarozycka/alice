@@ -8,7 +8,7 @@ To create AliceDB, you have to be in the alicedb directory (here). Then using Do
 $ docker compose up -d
 ```
 
-This command will create database and run container that consists of:
+This command will create database in the background (-d flag) and run container that consists of:
 - alicedb
 - adminer-1.
 
