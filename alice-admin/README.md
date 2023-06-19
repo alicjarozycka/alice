@@ -20,6 +20,7 @@ Make sure that you have stable internet connection because program sends request
 Dockerfile includes an instruction that automatically starts the program. Pay attention to the arguments included in the Dockerfile.
 
 | Argument | Parameter description | Is the argument required? |
+| :-----: | :---: | :---: |
 | -f | Path to input file | Yes |
 | -src | Name of the database the file comes from | Yes |
 | -org | Name of the organism from which the data comes | Yes | 
