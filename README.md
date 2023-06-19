@@ -7,17 +7,20 @@
 
 ## General info
 
-Alice tool was created as Bachelor Thesis Project. It was built using Python 3.11.2 version. It does contain two programs and database:
+The aim of the work was to create a tool that will identify peptides that may contain sequences of naturally occuring protein variants. The Alice tool was created to handle this issue.
 
+The Alice tool is the result of a Bachelor's Project at the Intercollegiate Faculty of Biotechnology UG&MUG in the Laboratory of Biopolymers Structure. 
+
+It was built using Python 3.11.2 version. It does contain two programs and a database:
 - Alice,
 - Alice-admin, 
 - AliceDB.
 
-Moreover, it uses Docker to create databse and run Python script. It is important to download [Docker](https://www.docker.com/products/docker-desktop/) with [Compose plugin](https://docs.docker.com/compose/).
+Moreover, it uses Docker to create the databse and run Python script. It is important to download [Docker](https://www.docker.com/products/docker-desktop/) with [Compose plugin](https://docs.docker.com/compose/).
 
 ## How to run
 
-To use this tool, you should firstly install all required libraries. Being in the project root directory, just type in the terminal:
+To use Alice, in the first place you should install all required libraries. Being in the project root directory, just type in the terminal:
 
 ```
 $ pip install -r requirements.txt
