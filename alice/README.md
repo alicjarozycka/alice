@@ -1,13 +1,13 @@
 # Alice
 
-The purpose of Alice program is to find peptide sequences which may contain sequences of naturally observed variants.
+The purpose of Alice program is to identify peptides which may contain sequences of naturally observed variants.
 
 Table od the arguments below, shows required flags to properly execute the script.
 
 | Argument | Parameter description | Is the argument required? |
 | :-----: | :---: | :---: |
-| -f | Path to the input file | Yes |
-| -src | Name of the database the file comes from | Yes |
+| -f | Path to the input file (csv, xlsx, xls) | Yes |
+| -src | Name of the database (eg. UniProt) | Yes |
 | -org | Name of the organism from which the data comes | Yes | 
 | -col | Column name in the input file indicating location of the peptide sequences | Yes |
 | -out | Path and desired output file name | Yes |
