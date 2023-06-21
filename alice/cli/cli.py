@@ -13,7 +13,7 @@ def parse():
     parser.add_argument('-f', '--file', required = True, type = check_if_file_exists, help='Path to your csv or excel file')
     parser.add_argument('-org', '--organism', required = True, help='From which organism is your data')
     parser.add_argument('-src', '--source', required = True, help='From which database is your data')
-    parser.add_argument('-col', '--column', required = True, help ='Column name in your file that contains peptide/protein sequences')
+    parser.add_argument('-col', '--column', required = True, help='Column name in your file that contains peptide sequences')
     parser.add_argument('-out', '--output', required = True, help='Path to output file')
     args = parser.parse_args()
     return args
