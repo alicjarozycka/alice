@@ -1,10 +1,5 @@
 # Alice tool
 
-## Table of contents
-
--   [General info](#general-info)
--   [How to run](#how-to-run)
-
 ## General info
 
 The aim of the work was to create a tool that will identify peptides that may contain sequences of naturally occuring protein variants. The Alice tool was created to handle this issue.
