@@ -16,7 +16,7 @@ It was built using Python 3.11.2 version. It does contain two programs and a dat
 - Alice-admin, 
 - AliceDB.
 
-Moreover, it uses Docker to create the databse and run Python script. It is important to download [Docker](https://www.docker.com/products/docker-desktop/) with [Compose plugin](https://docs.docker.com/compose/).
+Moreover, it uses Docker to create the databse and run Python script. It is important to download [Docker](https://www.docker.com/products/docker-desktop/) with [Docker Compose plugin](https://docs.docker.com/compose/).
 
 ## How to run
 
