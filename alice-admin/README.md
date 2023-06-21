@@ -11,7 +11,7 @@ This will build a docker image named aliceadmin with tag 0.1.
 Docker image is used to run Python script from alice-admin.py. The following step is to run a container and add data to the database.
 
 ```
-$ docker run --name aliceadmin -d --network alicedb_alice_network -v path_to_data_folder/data:/home/data aliceadmin:0.1
+$ docker run --name aliceadmin -d --network alicedb_alice_network -v path_to_data_folder:/home/data aliceadmin:0.1
 ```
 The command above runs container named aliceadmin, this action initiates adding data to the database. It is important to place FASTA file in the folder named "data". File should also be named "data" with ".fasta" extension.
 
