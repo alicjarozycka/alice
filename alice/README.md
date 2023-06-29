@@ -2,7 +2,7 @@
 
 The purpose of Alice program is to identify peptides which may contain sequences of naturally observed variants.
 
-Table od the arguments below, shows required flags to properly execute the script.
+Table of the arguments below, shows required flags to properly execute the script.
 
 | Argument | Parameter description | Is the argument required? |
 | :-----: | :---: | :---: |
